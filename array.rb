@@ -6,6 +6,10 @@ class Array
     # 配列から要素を取り出す
     puts names[0]
 
+    # 配列から複数の要素を先頭から取り出す
+    a, b, c, d = names
+    puts a, b, c, d
+
     # 配列にオブジェクトを格納する
     names[0] = '野尻'
 
